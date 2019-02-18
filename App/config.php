@@ -3,7 +3,7 @@
 $config = [
     'driver'    => 'mysql',
     'host'      => 'localhost',
-    'database'  => 'boston_test',
+    'database'  => 'range_test',
     'username'  => 'root',
     'password'  => '',
     'charset'   => 'utf8',

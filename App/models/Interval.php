@@ -1,10 +1,10 @@
 <?php
 
-namespace models;
+namespace App\models;
 
 use Illuminate\Database\Eloquent\Model;
 
-class Visit extends Model
+class Interval extends Model
 {
     /**
      * The attributes that are mass assignable.
@@ -14,9 +14,5 @@ class Visit extends Model
 
     public $timestamps = false;
 
-    protected $fillable = [
-
-        'ip_address', 'user_agent', 'view_date','page_url','views_count'
-
-    ];
+    protected $fillable = ['date_start', 'date_end', 'price'];
 }
